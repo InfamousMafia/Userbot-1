@@ -930,8 +930,8 @@ async def hacking (hacked):
     if not hacked.text[0].isalpha() and hacked.text[0] not in ("/", "#", "@", "!"):
         if await hacked.get_reply_message():
             await hacked.edit(
-                "`Targeted Account Hacked successfully 😎......`\n"
-                "`Pay Rs.69,000 and your girlfriend nudes to` [iNtimicY] (https://t.me/iNtimicY/) `to Remove This Hack...`\n"
+                ""`Targeted Account Hacked successfully 😎......`\n"
+                "`Pay 6969$ to` @iNtimicY `To Remove This Hack...`\n"
             )
 			  
 @register(outgoing=True, pattern="^.kill$")
